@@ -1,0 +1,35 @@
+.derecha{text-align: right;}
+.sel{display: inline}
+.sel a{font-size: 0;padding: 8px;border-radius: 10px;border:1px solid #fff;color: transparent;margin-right: 2px;margin-left: 2px}
+.sel a.activo{background-color: #fff}
+.carousel .derecha{text-align: right}
+.carousel{
+    height: 100%;
+    overflow: hidden;
+}
+@media (max-width: 991.98px){
+    .carousel{
+        height: 500px;
+    }
+    
+}
+@media (max-width: 600px){
+    .carousel{
+        height: 300px;
+    }
+
+}
+
+.item{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100% auto;
+}
+.paginate-slide{
+    position: absolute;
+    z-index: 10;
+    bottom: 15px;
+    right: 15px;
+}

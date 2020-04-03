@@ -1,0 +1,134 @@
+*{
+    /* font-family: 'Muli', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+.bg-white{
+    background-color: #fff;
+}
+img{
+    width: 100%;
+}
+.navbar{
+    padding: 1rem 1rem;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.navbar-brand{
+    width: 140px;
+}
+@media (max-width: 991.98px){
+    .navbar-brand{
+        width: 100px;
+    }
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #2BBF69!important;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.amber .titulo{
+    font-size: 18px!important;
+    font-weight: 400;
+}
+p{
+    font-size: 16px;
+}
+.text-success{
+    color: #2BBF69!important;
+}
+body,html{
+    height: 100%;
+}
+.transparent{
+    height: 100%;
+}
+.white{
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.amber{
+    background-color: #f7c01b;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.amber h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+.amber p{
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.iconos{
+    width: auto;
+    max-width: 100px;
+    max-height: 80px;
+}
+
+.certificate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* list-style: none; */
+    /* padding-left: 0; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.certificate > .li{
+    width: 140px;
+}
+
+/* #certificacion{
+    display: flex
+} */
+
+
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1080px;
+    }
+}
+.white .titulo{
+    position: relative;
+    margin-bottom: 20px!important;
+    font-weight: 300;
+    font-size: 37px!important;
+    /* margin-bottom: 30px!important; */
+    color: #42424c;
+}
+.m-15{
+    margin-bottom: 15px!important;
+}
+.m-30{
+    margin-bottom: 30px!important;
+}
+/* .white .titulo::before{
+    position: absolute;
+    content: " ";
+    width: 20px;
+    height: 4px;
+    bottom: -10px;
+    left: calc( 50% - 10px );
+    /* right: auto; */
+    /* background-color: #2BBF69; */
+/* } */
+
+.tarjeta{
+    border-radius: 10px;
+    overflow: hidden;
+}
